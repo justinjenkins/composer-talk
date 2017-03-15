@@ -1,0 +1,14 @@
+{
+  "name": "antimuon/app-hello-world",
+  "require": {
+    "antimuon/helloworld": "1.*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../plugins/helloworld"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

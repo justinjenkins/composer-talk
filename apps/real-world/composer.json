@@ -1,0 +1,14 @@
+{
+  "name": "antimuon/app-real-world",
+  "require": {
+	"antimuon/scotty": "*"
+  },
+  "repositories": [
+	{
+	  "type": "path",
+	  "url": "../../plugins/scotty"
+	}
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

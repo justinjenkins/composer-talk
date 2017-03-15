@@ -1,0 +1,17 @@
+{
+  "type": "composer-plugin",
+  "name": "antimuon/helloworld",
+  "version": "1.0.0",
+  "require": {
+    "composer-plugin-api": "1.1.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "antimuon\\": "src"
+    }
+  },
+  "extra": {
+    "class": "antimuon\\Plugin"
+  }
+}

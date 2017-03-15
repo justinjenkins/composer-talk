@@ -1,0 +1,17 @@
+{
+  "type": "composer-plugin",
+  "name": "antimuon/scotty",
+  "version": "0.0.1",
+  "require": {
+    "composer-plugin-api": "1.1.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "antimuon\\": "src/antimuon"
+    }
+  },
+  "extra": {
+    "class": "antimuon\\Plugin"
+  }
+}
